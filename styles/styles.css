@@ -2,40 +2,48 @@
   h3 {width:12rem;}
       h4 {color: #0099CC;}
       a {color: #66CCFF;}
+
 section
 {
-  width: 60%;
+  width: 50%;
   float: left;
-  padding: 5px
+  font-family: sans-serif;
+  margin: 1rem 1rem 1rem 5rem;
   }
       aside {
           width: 35%;
           float: right;
           color: #303030;
         font-family: sans-serif;
-      padding: 1px;
-      margin: 1px;
-
+      margin: 1rem 1rem 1rem 1rem;
       }
-div {
+
+header {
   width: 100%;
-  height: 4rem;
-  padding: 20px;
+  height: 8rem;
+  padding: 2rem;
   color: white;
-  font-size: 4rem;
-  text-align:center;
-    background: #0489B1;
+  font-size: 1rem;
+    font-family: sans-serif;
+  text-align:left;
+    background: #367988;
+
 }
-      .navclass{
-width: 50%;
-        background: moccasin;
-        margin: 1em;
-        padding: 1em;
+      nav{
+        width: 100%;
+        background: #E8E8E8;
+        padding: 1rem 1rem 1rem 1rem;
+      }
+
+        .navclass{
         color: black;
+        font-size: 10px;
+        font-weight: bold;
+        padding: .2rem;
         font-family: sans-serif;
         text-decoration: none;
+}
 
-      }
       .footer {
 
           clear: both;
