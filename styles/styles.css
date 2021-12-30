@@ -1,5 +1,5 @@
 <style>
-  h3 {width:12rem;}
+  h3 {width:2rem;}
       h4 {color: #0099CC;}
       a {color: #66CCFF;}
 
@@ -8,20 +8,18 @@ section
   width: 50%;
   float: left;
   font-family: sans-serif;
-  margin: 1rem 1rem 1rem 5rem;
+    background: pink;
   }
       aside {
-          width: 35%;
           float: right;
-          color: #303030;
-        font-family: sans-serif;
-      margin: 1rem 1rem 1rem 1rem;
+          font-family: sans-serif;
+        background: blue;
       }
 
 header {
   width: 100%;
   height: 8rem;
-  padding: 2rem;
+  padding: 2rem 0rem 0rem 0rem;
   color: white;
   font-size: 1rem;
     font-family: sans-serif;
@@ -32,30 +30,53 @@ header {
       nav{
         width: 100%;
         background: #E8E8E8;
-        padding: 1rem 1rem 1rem 1rem;
+        padding: 1rem 0rem 1rem 0rem;
+          text-align:left;
+      }
+
+      footer{
+        clear: both;
+        position: inherit;
+        background-image: url("images/lesson04-mock4-footer-image.jpg");
+        background: black;
+        color: white;
+        margin-top: 1rem;
+        width: 100%;
+        text-align:center;
+        float: bottom;
+
       }
 
         .navclass{
         color: black;
         font-size: 10px;
         font-weight: bold;
-        padding: .2rem;
+        padding: .3rem;
         font-family: sans-serif;
         text-decoration: none;
+
+}
+.footerclass{
+color: white;
+font-size: .7rem;
+padding: .3rem;
+font-family: sans-serif;
+text-decoration: none;
 }
 
-      .footer {
+      .footerback {
 
           clear: both;
           position: relative;
           margin-top: 1rem;
           width: 100%;
+            background: purple;
       }
-      .footer1 {
+      .footerlogo {
           clear: both;
-          position: inherit;
-          margin-top: 1rem;
-          width: 100%;
+
+          margin-top: 5rem;
+          justify-content; center;
           z-index: 999;
       }
 
