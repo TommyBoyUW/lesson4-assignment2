@@ -1,41 +1,58 @@
 <style>
 
-
-
-
-
-  h3 {width:2rem;}
-      h4 {
-      color: #0099CC;
+  * {font-family: Helvetica, sans-serif;}
+  h2 {font-size: 2rem;}
+  h3 {font-size: 1.4rem;}
+  h4 {color: #0099CC;
       font-size: 1.5rem;}
-      a {color: #66CCFF;}
+  a {color: #66CCFF;}
 
-#jeremy{
-  color: #0099CC;
-  font-size: 1.5rem;
-}
-      #leftsection {
+  .highlight{color: #0099CC;}
+  .jeremy{color: #0099CC;
+          font-size: 1.5rem;}
+  .sidecat{width: 100%}
+
+
+  .toparticle{
+  clear: both;
+      font-size: 1.3rem;
+  padding: 1% 10% 0% 10%;
+    }
+
+
+      .leftsection {
         width: 55%;
         float: left;
-        font-family: sans-serif;
         text-align: justify;
-          background: pink;
-          font-size: 1rem;
-          padding: 1% 1% 1% 10%;
+        font-size: 1.3rem;
+        padding: 0% 1% 1% 10%;
         }
-.sidecat{width: 100%}
+        .lefttemplate {
+          width: 35%;
+          float: left;
+          text-align: justify;
+          font-size: 1.3rem;
+            padding: 0% 0% 0% 10%;
+                }
 
-        #rightsection {
+        .rightsection {
           width: 20%;
           float: right;
-          font-family: sans-serif;
           text-align: justify;
-            background: blue;
-            font-size: 1rem;
-            padding: 1% 10% 1% 1%;
+          font-size: 1.3rem;
+          padding: 1% 10% 1% 1%;
           }
 
+          .righttemplate {
+            width: 35%;
+            float: right;
+            text-align: justify;
+            font-size: 1.3rem;
+              padding: 0% 10% 0% 0%;
+              }
+
 header {
+clear: both;
   width: 70%;
   height: 7rem;
   padding: 2% 20% 2% 10%;
@@ -43,58 +60,52 @@ header {
     text-align: 5rem;
   font-size: 1rem;
     font-family: sans-serif;
-
     background: #0a7e8c;
-
 }
-      nav{
+
+      .bannernav{
         width: 70%;
         background: #E8E8E8;
         padding: 1% 20% 1% 10%;
           text-align:left;
       }
-
-      footer{
-        clear: both;
-        position: center;
-        background: black;
-        background-image: url("images/lesson04-mock4-footer-image.jpg");
-        color: white;
-        width: 30%;
-        height: 25rem;
-        padding: 1% 35% 1% 35%;
-        text-align:center;
-        float: bottom;
-
-
-      }
-
-        .navclass{
-        color: black;
-        font-size: 10px;
-        font-weight: bold;
-        padding: .3rem;
-        font-family: sans-serif;
-        text-decoration: none;
-
-
+      .navclass{
+      color: black;
+      font-size: 1rem;
+      font-weight: bold;
+      padding: .3rem;
+      font-family: aerial;
+      text-decoration: none;
 }
-.footerclass{
+
+.footernav{
+clear: both;
 color: white;
-font-size: .7rem;
-padding: .3rem;
-font-family: sans-serif;
+font-weight: bold;
+font-size: .8rem;
+padding: 3rem 0.3rem 0rem 0.3rem;
 text-decoration: none;
 }
 
-
-      }
       .footerlogo {
           clear: both;
-          margin: 5rem 0rem 5rem 0rem;
-          width: 100%;
-          padding: 1% 35% 1% 35%;
-          z-index: 999;
+          margin: 5rem 0rem 0rem 0rem;
+          width: 80%;
+          z-index: 99;
       }
+
+          footer{
+        clear: both;
+        position: center;
+        background: black;
+        color: white;
+        width: 30%;
+        height: 18rem;
+        padding: 0% 35% 0% 35%;
+        text-align:center;
+        float: bottom;
+        z-index: 99;
+      }
+
 
 </style>
