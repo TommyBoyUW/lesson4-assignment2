@@ -22,7 +22,7 @@
     height: 8%;
     padding: 1% 68% 2% 10%;
     color: white;
-    background: #0a7e8c;
+    background: #085F68;
     }
 
     .aboutheader {
@@ -41,7 +41,7 @@
 
         .navclass{
         color: black;
-        font-size: .9rem;
+        font-size: 1rem;
         font-weight: bold;
         padding: .3rem;
         text-decoration: none;
@@ -91,6 +91,6 @@
       .footernav{
       color: white;
       font-weight: bold;
-      font-size: .8rem;
+      font-size: 1rem;
       text-decoration: none;
       }
